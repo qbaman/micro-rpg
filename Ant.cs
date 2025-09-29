@@ -7,31 +7,14 @@ using static System.Console;
 
 namespace InheritanceGameDemo
 {
-    class Ant
+    class Ant : Enemy
     {
-        private string Name;
-        private double Health;
-        private string TextArt;
-        private ConsoleColor Color;
         private int ChargeDistance;
 
         public Ant(string name, int health, ConsoleColor color, int chargeDistance)
+            : base(name, health, color, ArtAssets.Ant)
         {
-            Name = name;
-            Health = health;
-            Color = color;
             ChargeDistance = chargeDistance;
-            TextArt = ArtAssets.Ant;
-        }
-
-        public void DisplayInfo()
-        {
-            ForegroundColor = Color;
-            WriteLine($"--- {Name} ---");
-            WriteLine($"\n{TextArt}\n");
-            WriteLine($"Health: {Health}");
-            WriteLine("---");
-            ResetColor();
         }
 
         public void Charge()

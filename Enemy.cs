@@ -7,13 +7,12 @@ using static System.Console;
 
 namespace InheritanceGameDemo
 {
-    internal class Enemy
+    class Enemy
     {
-        private string Name;
-        private double Health;
-        private string TextArt;
-        private ConsoleColor Color;
-        private int ChargeDistance;
+        protected string Name;
+        protected int Health;
+        protected string TextArt;
+        protected ConsoleColor Color;
 
         public Enemy(string name, int health, ConsoleColor color, string textArt)
         {
