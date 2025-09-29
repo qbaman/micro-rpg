@@ -33,6 +33,9 @@ namespace InheritanceGameDemo
 
             CurrentPlayer = new Player("The Hero", 300, ConsoleColor.DarkCyan);
             CurrentPlayer.DisplayInfo();
+            CurrentPlayer.Fight(Enemies[0]);
+            CurrentPlayer.Fight(Enemies[1]);
+            CurrentPlayer.Fight(Enemies[2]);
 
             //CurrentPlayer.Fight(Enemies[0]);
             //Enemies[0].Fight(CurrentPlayer);

@@ -18,7 +18,7 @@ namespace InheritanceGameDemo
         public override void Fight(Character otherCharacter)
         {
             ForegroundColor = Color;
-            WriteLine($"Player {Name} attacks ....");
+            WriteLine($"Player {Name} attacks {otherCharacter.Name}");
             ResetColor();
         }
     }

@@ -10,11 +10,11 @@ namespace InheritanceGameDemo
 {
     class Character
     {
-        protected string Name;
-        protected int Health;
-        protected string TextArt;
-        protected ConsoleColor Color;
-        protected Random RandGenerator;
+        public string Name { get; protected set; }
+        public int Health { get; protected set; }
+        public string TextArt { get; protected set; }
+        public ConsoleColor Color { get; protected set; }
+        public Random RandGenerator { get; protected set; }
 
 
         public Character(string name, int health, ConsoleColor color, string textArt)
