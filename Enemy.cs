@@ -7,19 +7,20 @@ using static System.Console;
 
 namespace InheritanceGameDemo
 {
-    class BeeAnt
+    internal class Enemy
     {
         private string Name;
         private double Health;
         private string TextArt;
         private ConsoleColor Color;
+        private int ChargeDistance;
 
-        public BeeAnt(string name, int health, ConsoleColor color)
+        public Enemy(string name, int health, ConsoleColor color, string textArt)
         {
             Name = name;
             Health = health;
             Color = color;
-            TextArt = ArtAssets.Bee;
+            TextArt = textArt;
         }
 
         public void DisplayInfo()
