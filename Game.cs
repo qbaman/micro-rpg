@@ -10,9 +10,12 @@ namespace InheritanceGameDemo
     class Game
     {
         private Ant FireAuntie;
+        private Ant Hades;
+
         public Game()
         {
             FireAuntie = new Ant("Fire Auntie", 100, ConsoleColor.Red, 3);
+            Hades = new Ant("Hades", 200, ConsoleColor.Magenta, 6);
         }
 
         public void Run()
@@ -22,7 +25,13 @@ namespace InheritanceGameDemo
             FireAuntie.DisplayInfo();
             WriteLine();
             FireAuntie.Charge();
-            FireAuntie.Bite(); 
+            FireAuntie.Bite();
+            WriteLine();
+
+            Hades.DisplayInfo();
+            WriteLine();
+            Hades.Charge();
+            Hades.Bite();
             WriteLine();
 
             WaitForKey();
@@ -35,4 +44,3 @@ namespace InheritanceGameDemo
         }
     }
 }
-
