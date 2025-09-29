@@ -9,8 +9,10 @@ namespace InheritanceGameDemo
 {
     class Game
     {
+        private Ant FireAuntie;
         public Game()
         {
+            FireAuntie = new Ant("Fire Auntie", 100, ConsoleColor.Red, 3);
         }
 
         public void Run()
