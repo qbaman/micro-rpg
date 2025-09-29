@@ -3,12 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using static System.Console;
 
 namespace InheritanceGameDemo
 {
@@ -27,6 +22,16 @@ namespace InheritanceGameDemo
             Color = color;
             ChargeDistance = chargeDistance;
             TextArt = ArtAssets.Ant;
+        }
+
+        public void DisplayInfo()
+        {
+            ForegroundColor = Color;
+            WriteLine($"--- {Name} ---");
+            WriteLine($"\n{TextArt}\n");
+            WriteLine($"Health: {Health}");
+            WriteLine("---");
+            ResetColor();
         }
     }
 }
