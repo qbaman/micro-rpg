@@ -33,5 +33,15 @@ namespace InheritanceGameDemo
             WriteLine("---");
             ResetColor();
         }
+
+        public void Charge()
+        {
+            WriteLine($"{Name} charges swiftly forward {ChargeDistance} inches!");
+        }
+
+        public void Bite()
+        {
+            WriteLine($"{Name} viciously chomps down!");
+        }
     }
 }

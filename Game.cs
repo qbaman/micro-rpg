@@ -20,6 +20,10 @@ namespace InheritanceGameDemo
             WriteLine("##### Micro RPG #####\n");
 
             FireAuntie.DisplayInfo();
+            WriteLine();
+            FireAuntie.Charge();
+            FireAuntie.Bite(); 
+            WriteLine();
 
             WaitForKey();
         }
