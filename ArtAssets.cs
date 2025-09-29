@@ -8,6 +8,14 @@ namespace InheritanceGameDemo
 {
     static class ArtAssets
     {
+<<<<<<< HEAD
+=======
+        public static string Player = @"__
+(._.)
+<||>
+_/\_";
+
+>>>>>>> 9771d90 (feat: implement fight mechanics for Player and Ant)
         public static string Bee = @"              \     /
           \    o ^ o    /
             \ (     ) /
@@ -19,7 +27,11 @@ namespace InheritanceGameDemo
             /(       )\
           /   (%%%%%)   \
                (%%%)
+<<<<<<< HEAD
                  !     (unknown artist)";
+=======
+                 !      ";
+>>>>>>> 9771d90 (feat: implement fight mechanics for Player and Ant)
 
         public static string Ant = @"\       /
  \     /  
@@ -30,6 +42,10 @@ namespace InheritanceGameDemo
         //-__||__.-\\.       .-'
        (/    ()     \)'-._.-'
        ||    ||      \\
+<<<<<<< HEAD
       ('    ('       ')    MJP";
+=======
+      ('    ('       ')     ";
+>>>>>>> 9771d90 (feat: implement fight mechanics for Player and Ant)
     }
 }
