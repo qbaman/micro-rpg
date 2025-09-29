@@ -7,21 +7,19 @@ using static System.Console;
 
 namespace InheritanceGameDemo
 {
-    class Ant
+    class Bee
     {
         private string Name;
         private double Health;
         private string TextArt;
         private ConsoleColor Color;
-        private int ChargeDistance;
 
-        public Ant(string name, int health, ConsoleColor color, int chargeDistance)
+        public Bee(string name, int health, ConsoleColor color)
         {
             Name = name;
             Health = health;
             Color = color;
-            ChargeDistance = chargeDistance;
-            TextArt = ArtAssets.Ant;
+            TextArt = ArtAssets.Bee;
         }
 
         public void DisplayInfo()
@@ -32,22 +30,6 @@ namespace InheritanceGameDemo
             WriteLine($"Health: {Health}");
             WriteLine("---");
             ResetColor();
-        }
-
-        public void Charge()
-        {
-            BackgroundColor = Color;
-            Write($" {Name} ");
-            ResetColor();
-            WriteLine($" charges swiftly forward {ChargeDistance} inches!");
-        }
-
-        public void Bite()
-        {
-            BackgroundColor = Color;
-            Write($" {Name} ");
-            ResetColor();
-            WriteLine($" viciously chomps down!");
         }
     }
 }
