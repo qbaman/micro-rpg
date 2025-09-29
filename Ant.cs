@@ -36,12 +36,18 @@ namespace InheritanceGameDemo
 
         public void Charge()
         {
-            WriteLine($"{Name} charges swiftly forward {ChargeDistance} inches!");
+            BackgroundColor = Color;
+            Write($" {Name} ");
+            ResetColor();
+            WriteLine($" charges swiftly forward {ChargeDistance} inches!");
         }
 
         public void Bite()
         {
-            WriteLine($"{Name} viciously chomps down!");
+            BackgroundColor = Color;
+            Write($" {Name} ");
+            ResetColor();
+            WriteLine($" viciously chomps down!");
         }
     }
 }
