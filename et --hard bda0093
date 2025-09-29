@@ -1,0 +1,24 @@
+[33mbda0093[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{0}: commit: Add polymorphic Fight implementation for Player, Ant, and Bee
+[33m353ca73[m HEAD@{1}: commit: feat: add polymorphic fight system for Player, Ant, and Bee
+[33m9771d90[m HEAD@{2}: commit (initial): feat: implement fight mechanics for Player and Ant
+[33md9daa28[m HEAD@{3}: commit: feat: add Player class and integrate into game loop
+[33mf6f6e42[m HEAD@{4}: commit: feat: add randomized Fight() behavior to Ant, Bee and Enemy base class
+[33mc3afacf[m HEAD@{5}: commit: feat: implement polymorphic Fight() method for Ant and Bee
+[33me4b6695[m HEAD@{6}: commit: feat: add polymorphic behavior for Ant and Bee in Run loop
+[33m04a7b24[m HEAD@{7}: commit: refactor: iterate over Enemies list with polymorphism and type checks
+[33m37d286d[m HEAD@{8}: commit: refactor: manage enemies in a list and assign items in Game
+[33m794aecf[m HEAD@{9}: commit: feat: add item support to Ant and integrate pickup in Game
+[33mce32361[m HEAD@{10}: commit: feat: add Item class and integrate LeafNinjaStar into Game
+[33m9ac6d77[m HEAD@{11}: commit: feat: add Fly and Sting abilities to Bee class
+[33m7242fdf[m HEAD@{12}: commit: feat: add BuzzBee instance and implement Bee subclass with poison sting
+[33m2648ae8[m HEAD@{13}: commit: refactor: introduce Enemy base class and update Ant to inherit
+[33me426ec1[m HEAD@{14}: commit: feat: add Enemy class with DisplayInfo method
+[33ma9041f3[m HEAD@{15}: commit: feat: add Bee class and update Ant class structure
+[33m173354e[m HEAD@{16}: commit: feat: add Hades Ant and demonstrate actions in Game
+[33macaa91e[m HEAD@{17}: commit: feat: enhance Ant actions with colored output
+[33m4fc1911[m HEAD@{18}: commit: feat: add Charge and Bite actions to Ant class
+[33m8198ffd[m HEAD@{19}: commit: feat: add DisplayInfo method to Ant class
+[33mc73e0b9[m HEAD@{20}: commit: feat: add Ant class with fields and constructor
+[33m8adcc90[m HEAD@{21}: commit: feat: add Ant class with basic stats and actions
+[33m7b79035[m HEAD@{22}: commit: chore: add .gitignore to exclude VS temporary files
+[33m6439527[m HEAD@{23}: commit (initial): feat: add starter files for Micro RPG project

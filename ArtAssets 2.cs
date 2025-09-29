@@ -8,11 +8,6 @@ namespace InheritanceGameDemo
 {
     static class ArtAssets
     {
-        public static string Player = @"__
-(._.)
-<||>
-_/\_";
-
         public static string Bee = @"              \     /
           \    o ^ o    /
             \ (     ) /
@@ -24,7 +19,7 @@ _/\_";
             /(       )\
           /   (%%%%%)   \
                (%%%)
-                 !      ";
+                 !     (unknown artist)";
 
         public static string Ant = @"\       /
  \     /  
@@ -35,6 +30,6 @@ _/\_";
         //-__||__.-\\.       .-'
        (/    ()     \)'-._.-'
        ||    ||      \\
-      ('    ('       ')     ";
+      ('    ('       ')    MJP";
     }
 }
